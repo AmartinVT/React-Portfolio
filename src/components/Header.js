@@ -1,29 +1,43 @@
-import React from 'react';
+import React, {useState} from 'react';
+// Here we are importing a CSS file as a dependency
 import '../App.css';
-
-// By importing the Header.css file, it is added to the DOM whenever this component loads
-
-// We can also style a component inside of its JavaScript file by adding style properties to its rendered elements
-// Unlike regular HTML, a JSX style property must be an object instead of a string
-// On a style object, we camelCase all property names, and put all of the values in quotes
-// Non quoted values default to "pixels", e.g. height, margin, padding
-
-const styles = {
-  headerStyle: {
-    background: 'red',
-  },
-  headingStyle: {
-    fontSize: '100px',
-  },
-};
-
-// We use JSX curly braces to evaluate the style object
+import Navigation from "./Navigation";
+import About from "./About";
+import Contact from "./Contact";
+import Portfolio from "./Portfolio";
+import Resume from "./Resume";
 
 function Header() {
+
+  const [currentPage, setCurrentPage] = useState('about-me');
+
+  const renderPage = () => {
+    if (currentPage === 'resume') {
+      return <Resume />;
+    }
+    if (currentPage === 'portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'contact') {
+      return <Contact />;
+    }
+    return <About />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Welcome to Adam Martin's MERN Portfolio!</h1>
-    </header>
+    <div>
+        <header className="p-5 text-center site-heading">
+        <h1>Martin's Portfolio</h1>
+        </header>
+        <nav>
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
+        </nav>
+        <main className='container'>
+          {renderPage()}
+        </main>
+    </div>
   );
 }
 
