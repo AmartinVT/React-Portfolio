@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 

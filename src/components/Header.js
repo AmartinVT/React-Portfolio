@@ -17,7 +17,7 @@ function Header() {
     }
     if (currentPage === 'portfolio') {
       return <Portfolio />;
-    }
+    }                
     if (currentPage === 'contact') {
       return <Contact />;
     }
