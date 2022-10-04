@@ -6,15 +6,30 @@ Due Date: 09/28/22
 Week 20 GT Coding Bootcamp Homework
 
 # Links
-GITHUB: 
-
-HEROKU:
+GITHUB: https://github.com/AmartinVT/React-Portfolio
 
 # App Description
+This is a REACT based application where users can view a web development portfolio. Page assets such as 
+tabs for selecting sections (About, Portfolio, Contact, etc.) are reactive and styled using bootstrap.
+Links to all application repos are available on the portfolio tab.
 
 # Dependencies
+REACT
+
+Boostrap
+
+Node 
+
+Express
 
 # Screenshots
+![About Me](Assets/SS1.png "About me tab screenshot")
+
+![Portfolio](Assets/SS2.png "Portfolio tab screenshot")
+
+![Resume](Assets/SS3.png "Resume tab screenshot")
+
+![Contact](Assets/SS4.png "Contact info tab screenshot")
 
 # Getting Started with Create React App
 

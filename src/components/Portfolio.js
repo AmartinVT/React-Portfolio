@@ -45,6 +45,31 @@ function Portfolio() {
           data can be easily tested using Postman.
         </div>
       </p>
+      <h2>Note Taker : A progressive web application</h2>
+      <p>
+        <a href='https://github.com/AmartinVT/PWA-Word-Processor'>View the Repo</a>
+        <div>
+          This application is a progressive web application that the user can use as a text editor. This application
+          can be downloaded onto a local machine and ran without web access.
+        </div>
+      </p>
+      <h2>Command Line ReadMe : Use CLI to make a quality ReadMe file</h2>
+      <p>
+        <a href='https://github.com/AmartinVT/Command-Line-ReadMe'>View the Repo</a>
+        <div>
+          This application runs off of the command line taking user input using Inquirer. The app then formats the
+          user input into a high quality ReadMe file.
+        </div>
+      </p>
+      <h2>Weather App : Using API's to display weather data</h2>
+      <p>
+        <a href='https://github.com/AmartinVT/WeatherApp'>View the Repo</a>
+        <div>
+          This application demonstrates utilizing weather API's to pull information for a weather webpage. The app
+          takes the user's input to determine where to search providing critical info such as temperature, precipitation,
+          and humidity.
+        </div>
+      </p>
     </section>
   );
 }
