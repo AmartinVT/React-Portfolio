@@ -10,10 +10,10 @@ import '../App.css';
 
 const styles = {
   headerStyle: {
-    background: 'red',
+    background: '#800000',
   },
   headingStyle: {
-    fontSize: '100px',
+    fontSize: '15px',
   },
 };
 
@@ -22,7 +22,13 @@ const styles = {
 function Footer() {
   return (
     <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>FOOTER!</h1>
+      <h1 style={styles.headingStyle}>
+        <div class="row text-center">
+        <div class="col-sm"><a href='amartin80108@gmail.com' class="text-white">Email Me</a></div>
+        <div class="col-sm"><a href='https://github.com/AmartinVT' class="text-white">Check out my GitHub</a></div>
+        <div class="col-sm"><a href='https://www.linkedin.com/in/adam-martin-0350b89b/' class="text-white">Check out my LinkedIn</a></div>
+        </div>
+        </h1>
     </header>
   );
 }
