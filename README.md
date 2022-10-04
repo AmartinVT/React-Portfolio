@@ -8,6 +8,8 @@ Week 20 GT Coding Bootcamp Homework
 # Links
 GITHUB: https://github.com/AmartinVT/React-Portfolio
 
+GITPAGE: https://amartinvt.github.io/React-Portfolio/
+
 # App Description
 This is a REACT based application where users can view a web development portfolio. Page assets such as 
 tabs for selecting sections (About, Portfolio, Contact, etc.) are reactive and styled using bootstrap.
