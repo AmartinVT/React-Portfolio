@@ -29,7 +29,7 @@ function Header() {
   return (
     <div>
         <header className="p-5 text-center site-heading">
-        <h1>Martin's Portfolio</h1>
+        <h1>Martin's REACT Portfolio </h1>
         </header>
         <nav>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>

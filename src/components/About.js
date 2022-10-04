@@ -1,7 +1,14 @@
 import React from 'react';
 
+const styles = {
+  sectionStyles: {
+    background: '#D3D3D3',
+  },
+};
+
 export default function About() {
   return (
+    <section style={styles.sectionStyles} className="section">
     <div>
       <h1>About Page</h1>
       <p>
@@ -11,5 +18,6 @@ export default function About() {
         portfolio, created using REACT, will demonstrate the skills learned thus far.
       </p>
     </div>
+    </section>
   );
 }
