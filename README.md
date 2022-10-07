@@ -8,7 +8,7 @@ Week 20 GT Coding Bootcamp Homework
 # Links
 GITHUB: https://github.com/AmartinVT/React-Portfolio
 
-GITPAGE: https://amartinvt.github.io/React-Portfolio/
+GITPAGE: https://amartinvt.github.io/React-Portfolio/index.html
 
 # App Description
 This is a REACT based application where users can view a web development portfolio. Page assets such as 
@@ -32,6 +32,8 @@ Express
 ![Resume](Assets/SS3.png "Resume tab screenshot")
 
 ![Contact](Assets/SS4.png "Contact info tab screenshot")
+
+![GitPage](Assets/SS5.png "Proof of GitPage running screenshot")
 
 # Getting Started with Create React App
 
